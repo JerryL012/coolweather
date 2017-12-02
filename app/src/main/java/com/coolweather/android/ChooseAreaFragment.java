@@ -181,8 +181,6 @@ public class ChooseAreaFragment extends Fragment {
 
     /**
      * 根据传入的地址和类型从服务器上查询省市县数据
-     * @param address
-     * @param type
      */
     private void queryFromServer(String address, final String type){
         showProgressDialog();
